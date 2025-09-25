@@ -18,7 +18,7 @@ const Home = () => {
               Inject Power, Drive Further
             </h1>
             <p className="text-xl md:text-2xl text-primary-200 mb-8 max-w-3xl mx-auto">
-              Leading vehicle solutions provider in Kenya, specializing in fuel injection services,
+              Leading vehicle solutions provider in Kenya, specializing in diesel injection services,
               diesel parts, car security systems, and advanced fleet management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -52,7 +52,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Fuel Injection Services */}
+            {/* Diesel Injection Services */}
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow overflow-hidden">
               <div className="relative mb-4">
                 <img
@@ -64,9 +64,9 @@ const Home = () => {
                   <CogIcon className="w-6 h-6 text-white" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Fuel Injection Services</h3>
+              <h3 className="text-xl font-semibold mb-3">Diesel Injection Services</h3>
               <p className="text-secondary-600 mb-4">
-                Expert diagnostics, repair, and remanufacturing of fuel injection systems for optimal performance.
+                Expert diagnostics, repair, and remanufacturing of diesel injection systems for optimal performance.
               </p>
               <Link
                 to="/services"
@@ -152,7 +152,7 @@ const Home = () => {
                 ))}
               </div>
               <p className="text-secondary-600 mb-4 italic">
-                "Megastrength transformed our fleet operations. Their GPS tracking system helped us reduce fuel costs by 25% and improve delivery times significantly."
+                "Megastrength transformed our fleet operations. Their GPS tracking system helped us reduce diesel costs by 25% and improve delivery times significantly."
               </p>
               <p className="font-semibold text-secondary-900">David Kimani</p>
               <p className="text-sm text-secondary-500">Fleet Manager, Kenya Logistics Ltd</p>
@@ -170,7 +170,7 @@ const Home = () => {
                 ))}
               </div>
               <p className="text-secondary-600 mb-4 italic">
-                "The fuel injection service was exceptional. My car runs smoother than ever, and the team's expertise is unmatched in Nairobi."
+                "The diesel injection service was exceptional. My car runs smoother than ever, and the team's expertise is unmatched in Nairobi."
               </p>
               <p className="font-semibold text-secondary-900">Sarah Wanjiku</p>
               <p className="text-sm text-secondary-500">Business Professional</p>

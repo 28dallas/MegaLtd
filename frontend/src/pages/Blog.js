@@ -16,14 +16,14 @@ const Blog = () => {
     {
       id: 1,
       title: 'Essential Diesel Engine Maintenance Tips',
-      excerpt: 'Learn the key maintenance practices that can extend your diesel engine\'s lifespan and improve fuel efficiency.',
-      content: 'Diesel engines are known for their durability and fuel efficiency, but proper maintenance is crucial to ensure optimal performance...',
+      excerpt: 'Learn the key maintenance practices that can extend your diesel engine\'s lifespan and improve diesel efficiency.',
+      content: 'Diesel engines are known for their durability and diesel efficiency, but proper maintenance is crucial to ensure optimal performance...',
       author: 'John Mwangi',
       date: '2024-01-15',
       readTime: '5 min read',
       category: 'maintenance',
       image: '/img/pexels-cottonbro-4489707.jpg',
-      tags: ['diesel', 'maintenance', 'fuel efficiency']
+      tags: ['diesel', 'maintenance', 'diesel efficiency']
     },
     {
       id: 2,

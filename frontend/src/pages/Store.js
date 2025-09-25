@@ -16,13 +16,13 @@ const Store = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: 'Premium Fuel Injector Kit',
+      name: 'Premium Diesel Injector Kit',
       price: 12500,
       originalPrice: 15000,
       rating: 4.8,
       reviews: 34,
-      image: '/img/pexels-cottonbro-4489707.jpg',
-      description: 'Complete fuel injector kit with all necessary components',
+      image: '/img/2/actros.jpg',
+      description: 'Complete diesel injector kit with all necessary components',
       category: 'injectors',
       inStock: true
     },
@@ -52,13 +52,13 @@ const Store = () => {
     },
     {
       id: 4,
-      name: 'Professional GPS Tracker',
+      name: 'Cloud tracking',
       price: 8500,
       originalPrice: 12000,
       rating: 4.6,
       reviews: 89,
       image: '/img/pexels-athena-2996306.jpg',
-      description: 'Real-time tracking with mobile app integration',
+      description: 'Real-time cloud tracking with mobile app integration',
       category: 'tracking',
       inStock: true
     }
@@ -66,10 +66,10 @@ const Store = () => {
 
   const categories = [
     { id: 'featured', name: 'Featured Products', icon: '⭐' },
-    { id: 'injectors', name: 'Fuel Injectors', icon: '⚙️' },
+    { id: 'injectors', name: 'Diesel Injectors', icon: '⚙️' },
     { id: 'security', name: 'Security Systems', icon: '🔒' },
     { id: 'entertainment', name: 'Entertainment', icon: '🎵' },
-    { id: 'tracking', name: 'GPS Tracking', icon: '📍' }
+    { id: 'tracking', name: 'Cloud Tracking', icon: '📍' }
   ];
 
   const filteredProducts = selectedCategory === 'featured'
@@ -175,18 +175,7 @@ const Store = () => {
                     </span>
                   </div>
 
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <span className="text-xl font-bold text-primary-600">
-                        KES {product.price.toLocaleString()}
-                      </span>
-                      {product.originalPrice > product.price && (
-                        <span className="ml-2 text-sm text-secondary-500 line-through">
-                          KES {product.originalPrice.toLocaleString()}
-                        </span>
-                      )}
-                    </div>
-                  </div>
+                  
 
                   <button
                     disabled={!product.inStock}
@@ -220,8 +209,8 @@ const Store = () => {
               <div className="w-16 h-16 bg-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">⚙️</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Fuel Systems</h3>
-              <p className="text-secondary-600 mb-4">Injectors, pumps, and fuel system components</p>
+              <h3 className="text-xl font-semibold mb-2">Diesel Systems</h3>
+              <p className="text-secondary-600 mb-4">Injectors, pumps, and diesel system components</p>
               <Link to="/ecommerce" className="text-accent-500 hover:text-accent-600 font-semibold">
                 Shop Now →
               </Link>
@@ -253,8 +242,8 @@ const Store = () => {
               <div className="w-16 h-16 bg-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">📍</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2">GPS & Tracking</h3>
-              <p className="text-secondary-600 mb-4">Fleet management and tracking solutions</p>
+              <h3 className="text-xl font-semibold mb-2">Cloud & Tracking</h3>
+              <p className="text-secondary-600 mb-4">Fleet management and cloud tracking solutions</p>
               <Link to="/ecommerce" className="text-accent-500 hover:text-accent-600 font-semibold">
                 Shop Now →
               </Link>

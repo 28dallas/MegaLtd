@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-secondary-300 mb-4">
-              Leading vehicle solutions provider in Kenya, specializing in fuel injection services, 
+              Leading vehicle solutions provider in Kenya, specializing in Diesel injection services, 
               diesel parts, car security systems, and fleet management.
             </p>
             <p className="text-sm text-secondary-400">

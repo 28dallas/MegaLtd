@@ -46,38 +46,38 @@ const Services = () => {
   const services = [
     {
       icon: CogIcon,
-      title: 'Fuel Injection Services',
-      description: 'Complete fuel injection system diagnostics, repair, cleaning, and optimization.',
-      features: ['Injector testing and calibration', 'Fuel system cleaning', 'Performance optimization', 'Warranty on all work'],
-      price: 'From KES 2,500'
+      title: 'Diesel Injection Services',
+      description: 'Complete diesel injection system diagnostics, repair, cleaning, and optimization.',
+      features: ['Injector testing and calibration', 'Diesel system cleaning', 'Performance optimization', 'Warranty on all work'],
+      
     },
     {
       icon: ShieldCheckIcon,
       title: 'Car Alarms & Security Systems',
       description: 'Advanced security solutions including alarms, immobilizers, and tracking systems.',
       features: ['Latest alarm technology', 'GPS tracking integration', 'Mobile app control', 'Professional installation'],
-      price: 'From KES 15,000'
+     
     },
     {
       icon: RadioIcon,
       title: 'Android Radios & Car Stereos',
       description: 'Premium audio systems with Android integration for entertainment and navigation.',
       features: ['Large touchscreen displays', 'Android Auto/Apple CarPlay', 'GPS navigation', 'Bluetooth connectivity'],
-      price: 'From KES 25,000'
+     
     },
     {
       icon: TruckIcon,
       title: 'Vehicle Tracking & Fleet Management',
       description: 'Comprehensive fleet tracking solutions with real-time monitoring and reporting.',
       features: ['Real-time GPS tracking', 'Fleet analytics', 'Driver behavior monitoring', 'Custom reporting'],
-      price: 'From KES 5,000/month'
+     
     },
     {
       icon: CameraIcon,
       title: '4G Live Dash Camera Solutions',
       description: 'High-definition dash cameras with live streaming and cloud storage.',
       features: ['4G connectivity', 'Live video streaming', 'Cloud storage', 'Accident recording'],
-      price: 'From KES 35,000'
+     
     },
     {
       icon: MapIcon,
@@ -107,8 +107,8 @@ const Services = () => {
             {services.map((service, index) => {
               const IconComponent = service.icon;
               const serviceImages = {
-                'Fuel Injection Services': '/img/pexels-cottonbro-4489707.jpg',
-                'Car Alarms & Security Systems': '/img/pexels-geometric-photography-186685971-13124396.jpg',
+                'Diesel Injection Services': '/img/2/actros.jpg',
+                'Car Alarms & Security Systems': '/img/download.png',
                 'Android Radios & Car Stereos': '/img/pexels-maksgelatin-4824424.jpg',
                 'Vehicle Tracking & Fleet Management': '/img/pexels-athena-2996306.jpg',
                 '4G Live Dash Camera Solutions': '/img/pexels-tima-miroshnichenko-6169868.jpg',

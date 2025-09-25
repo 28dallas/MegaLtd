@@ -17,14 +17,14 @@ const Ecommerce = () => {
   const products = [
     {
       id: 1,
-      name: 'Fuel Injector Set',
+      name: 'Diesel Injector Set',
       category: 'injectors',
       price: 8500,
       originalPrice: 9500,
       rating: 4.5,
       reviews: 23,
       image: '/img/pexels-cottonbro-4489707.jpg',
-      description: 'High-performance fuel injectors for diesel engines',
+      description: 'High-performance diesel injectors for diesel engines',
       inStock: true
     },
     {
@@ -53,14 +53,14 @@ const Ecommerce = () => {
     },
     {
       id: 4,
-      name: 'GPS Tracker Pro',
+      name: 'Cloud Tracker Pro',
       category: 'trackers',
       price: 12500,
       originalPrice: 15000,
       rating: 4.7,
       reviews: 67,
       image: '/img/pexels-athena-2996306.jpg',
-      description: 'Real-time GPS tracking device with mobile app',
+      description: 'Real-time cloud tracking device with mobile app',
       inStock: true
     },
     {
@@ -84,17 +84,17 @@ const Ecommerce = () => {
       rating: 4.4,
       reviews: 19,
       image: '/img/pexels-cottonbro-4489715.jpg',
-      description: 'Complete diesel fuel pump assembly',
+      description: 'Complete diesel pump assembly',
       inStock: true
     }
   ];
 
   const categories = [
     { id: 'all', name: 'All Products' },
-    { id: 'injectors', name: 'Fuel Injectors' },
+    { id: 'injectors', name: 'Diesel Injectors' },
     { id: 'alarms', name: 'Car Alarms' },
     { id: 'radios', name: 'Android Radios' },
-    { id: 'trackers', name: 'GPS Trackers' },
+    { id: 'trackers', name: 'Cloud Trackers' },
     { id: 'cameras', name: 'Dash Cameras' }
   ];
 
